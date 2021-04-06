@@ -57,7 +57,7 @@ class RegisterViewModel(
                 email.isEmpty() -> handleFailed(R.string.register_error_email_empty)
                 !email.isEmail -> handleFailed(R.string.register_error_email_invalid)
                 password.isEmpty() -> handleFailed(R.string.register_error_password_empty)
-                age < 0 -> handleFailed(R.string.register_error_password_empty)
+                age < 0 -> handleFailed(R.string.register_error_age_empty)
                 else -> {
                     callRegister(userBody)
                 }

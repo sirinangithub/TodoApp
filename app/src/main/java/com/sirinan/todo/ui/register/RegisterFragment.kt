@@ -37,8 +37,8 @@ class RegisterFragment : BaseFragment<RegisterViewModel, FragmentRegisterBinding
             buttonLogin.setOnClickListener(::onClickListener)
             textLogin.setOnClickListener(::onClickListener)
 
-            editEmail.setText("android3@gmail.com")
-            editPassword.setText("12345678")
+//            editEmail.setText("android3@gmail.com")
+//            editPassword.setText("12345678")
         }
     }
 
