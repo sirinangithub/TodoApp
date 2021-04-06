@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Headline1">
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Headline2" parent="Headline1">
+        <item name="android:textSize">@dimen/text_size_extra_large</item>
+    </style>
+
+    <style name="Headline3" parent="Headline1">
+        <item name="android:textSize">@dimen/text_size_extra_extra_large</item>
+    </style>
+
+
+    <style name="Subtitle">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Subtitle.Small">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="Body">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+    <style name="Body.Small">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="Caption">
+        <item name="android:textSize">@dimen/text_size_extra_small</item>
+    </style>
+
+    <!-- Headline1 colors -->
+    <style name="Headline1.Secondary">
+        <item name="android:textColor">@color/color_secondary</item>
+    </style>
+
+    <style name="Headline1.Green">
+        <item name="android:textColor">@color/color_green</item>
+    </style>
+
+    <style name="Headline1.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Subtitle colors -->
+    <style name="Subtitle.Secondary">
+        <item name="android:textColor">@color/color_secondary</item>
+    </style>
+
+    <style name="Subtitle.Green">
+        <item name="android:textColor">@color/color_green</item>
+    </style>
+
+    <style name="Subtitle.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Subtitle small colors -->
+    <style name="Subtitle.Small.Secondary">
+        <item name="android:textColor">@color/color_grey</item>
+    </style>
+
+    <style name="Subtitle.Small.Green">
+        <item name="android:textColor">@color/color_green</item>
+    </style>
+
+    <style name="Subtitle.Small.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <!-- Body colors -->
+    <style name="Body.Secondary">
+        <item name="android:textColor">@color/color_grey</item>
+    </style>
+
+    <style name="Body.Green">
+        <item name="android:textColor">@color/color_green</item>
+    </style>
+
+
+    <!-- Caption colors -->
+    <style name="Body.Small.Secondary">
+        <item name="android:textColor">@color/color_grey</item>
+    </style>
+
+    <style name="Body.Small.Green">
+        <item name="android:textColor">@color/color_green</item>
+    </style>
+
+    <style name="Caption.Secondary">
+        <item name="android:textColor">@color/color_grey</item>
+    </style>
+
+    <style name="Caption.Green">
+        <item name="android:textColor">@color/color_green</item>
+    </style>
+
+</resources>

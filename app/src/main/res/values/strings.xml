@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Todo</string>
+
+    <string name="register_error_email_empty">คุณยังไม่ได้ใส่อีเมล</string>
+    <string name="register_error_email_invalid">อีเมลของคุณไม่ถูกต้อง</string>
+    <string name="register_error_password_empty">คุณยังไม่ได้ใส่รหัสผ่าน</string>
+    <string name="register_error_name_empty">คุณยังไม่ได้ใส่ชื่อ</string>
+    <string name="register_error_age_empty">คุณยังไม่ได้ใส่อายุ</string>
+</resources>
